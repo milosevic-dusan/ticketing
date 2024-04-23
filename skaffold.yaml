@@ -8,7 +8,7 @@ build:
   local:
     push: false
   artifacts:
-    - image: dusanmilosevic/auth
+    - image: sh4nd00/auth
       context: auth
       docker:
         dockerfile: Dockerfile
@@ -16,7 +16,7 @@ build:
         manual:
           - src: "src/**/*.ts"
             dest: .
-    - image: dusanmilosevic/ticketing-client
+    - image: sh4nd00/ticketing-client
       context: client
       docker:
         dockerfile: Dockerfile
