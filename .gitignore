@@ -3,6 +3,7 @@ client/node_modules
 client/.next
 tickets/node_modules
 orders/node_modules
+expiration/node_modules
 nats-test/node_modules
 infra/.DS_Store
 .DS_Store

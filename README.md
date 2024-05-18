@@ -1,3 +1,8 @@
+--once microservice created first create image and push with
+
+docker build -t sh4nd00/expiration .
+
+
 kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
 
 
